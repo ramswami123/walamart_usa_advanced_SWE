@@ -2,9 +2,9 @@
 
 <p>After much deliberation amongst your team, you have been trusted to design part of a new data processing pipeline. You will be responsible for coming up with the architecture for a dynamically reconfigurable data processor. The processor will have several different modes, each of which treats incoming data in a different way. Some modes will pass the result along to a database, and others will additionally validate the data against the database. To further complicate matters, there are several databases in play, and the processor needs the ability to toggle between them on the fly. The system needs to be extendable - your team has every intention of adding additional modes and databases in the future - so take extra care to ensure the system isn’t rigid. Adhere to good design principles, use design patterns where they make sense, and remember your SOLID principles. Your project lead will use this to assess your ability to design clean code, so be sure to show off what you know. Success here could mean a promotion, don’t squander the chance!</p>
 
-<div>
+
   . Object-Oriented Design (OOD) and Principles
-a) Encapsulation, Inheritance, and Polymorphism
+ a) Encapsulation, Inheritance, and Polymorphism
 Encapsulation: Group related data and methods into a single unit, i.e., a class. It helps protect the internal state of objects and ensures only specific methods can modify it.
 
 Example: A Database class might have private methods for connecting to the database, while publicly exposing an insert method.
@@ -59,4 +59,4 @@ UML Diagrams: Practice drawing class and state diagrams using tools like Lucidch
 Enums and Switch Statements: Understand how enums work in your programming language and experiment with them using if-else or switch-case structures.
 Database Abstraction: Look for tutorials on creating abstract classes and interfaces, especially for interacting with different databases.
 Unit Testing and Mocking: Learn unit testing techniques, especially how to mock dependencies. For Python, look into libraries like unittest and pytest.
-</div>
+
